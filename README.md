@@ -9,6 +9,6 @@ Download:
 
 Usage:
 1. Win+R (run)
-2. Enter "pomodoro.vbs" _[working time] [break time] [loops]_
+2. Enter "pomodoro.vbs _[working time (mins)] [break time (mins)] [loops]_"
 
 Now you'll get a popup notification telling you when to start working, and when your break is! Slice up your work day into manageable chunks!
