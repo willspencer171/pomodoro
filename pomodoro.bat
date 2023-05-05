@@ -14,9 +14,9 @@ rem echo %batch_dir%
 :loop
 for /l %%i in (1,1,%cycles%) do (
     start "" /B wscript "%batch_dir%popup.vbs" "Working for %work_time% minutes..."
-    timeout /T %work_time% >nul
+    timeout /T %work_time_seconds% >nul
     start "" /B wscript "%batch_dir%popup.vbs" "Time for a break! Take %break_time% minutes to chill out"
-    timeout /T %break_time% >nul
+    timeout /T %break_time_seconds% >nul
 )
 
 start "" /B wscript "%batch_dir%popup.vbs" "Pomodoro timer finished."
